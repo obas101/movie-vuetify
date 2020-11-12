@@ -14,8 +14,9 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+    ],
+    
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
@@ -43,6 +44,8 @@ export default {
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    'nuxt-material-design-icons'
+
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
